@@ -1,0 +1,35 @@
+# app stuff
+/logs/*
+/data/*
+*.cfg
+
+
+# python stuff
+__pycache__/
+*.pyc
+*.egg
+*.egg-info
+eggs/
+develop-eggs/
+
+# scala stuff
+target/
+project/boot/
+project/build/target
+build/
+*.class
+.cache/
+.history/
+.lib/
+dist/*
+lib_managed/
+src_managed/
+
+
+# node stuff
+node_modules/
+
+
+# c stuff
+*.so
+
