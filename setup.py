@@ -8,4 +8,7 @@ setup(name='myutilities',
       author_email='jj.espinoza.la@gmail.com',
       license='MIT',
       packages=['myutilities'],
+      install_requires=[
+          'twilio',
+      ],
       zip_safe=False)

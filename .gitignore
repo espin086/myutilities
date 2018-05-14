@@ -2,6 +2,7 @@
 /logs/*
 /data/*
 *.cfg
+secret.py
 
 
 # python stuff

@@ -23,13 +23,11 @@ def print_header(project_title, creators,
 	print()
 
 def print_menu(project_title, creators, version, repo, command_dict):
-	
 	print_header(project_title, 
 		creators, version,repo)
 	print_commands(command_dict)
-	pass	
-def user_input(project_title):
-	
+
+def user_input():
 	pass
 def mymenu(project_title, creators, version, repo, command_dict):
 	"""Creates Menu.
@@ -63,15 +61,3 @@ if __name__ == '__main__':
 		'-command1': '[arguments] description of command 1'}
 
 	mymenu(project_title, creators, version, repo, command_dict)
-	
-	
-	
-	
-
-
-	
-	
-
-
-
-	
